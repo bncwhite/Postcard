@@ -12,11 +12,9 @@ class ViewController: UIViewController {
 
     
     @IBOutlet var messageLabel: UILabel!
-    
+    @IBOutlet var nameLabel: UILabel!
     @IBOutlet var enterNameTextField: UITextField!
-    
     @IBOutlet var enterMessageTextField: UITextField!
-    
     @IBOutlet var mailButton: UIButton!
     
     override func viewDidLoad() {
@@ -33,9 +31,13 @@ class ViewController: UIViewController {
         //Testing commits comment.
         messageLabel.hidden = false
         messageLabel.text = "Hi " + enterNameTextField.text + ", " + enterMessageTextField.text
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        nameLabel.hidden = false
+        nameLabel.text = enterNameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
         enterNameTextField.text = ""
         enterMessageTextField.text = ""
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        
     }
 
 }
