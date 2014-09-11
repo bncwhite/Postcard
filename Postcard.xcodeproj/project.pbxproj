@@ -13,6 +13,7 @@
 		1C0E55DD19C00FCC0006D67E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E55DC19C00FCC0006D67E /* Images.xcassets */; };
 		1C0E55E019C00FCC0006D67E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E55DE19C00FCC0006D67E /* LaunchScreen.xib */; };
 		1C0E55EC19C00FCC0006D67E /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E55EB19C00FCC0006D67E /* PostcardTests.swift */; };
+		1C0E55F619C0182E0006D67E /* Charizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0E55F519C0182E0006D67E /* Charizard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1C0E55E519C00FCC0006D67E /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0E55EA19C00FCC0006D67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0E55EB19C00FCC0006D67E /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		1C0E55F519C0182E0006D67E /* Charizard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Charizard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		1C0E55D319C00FCC0006D67E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E55F519C0182E0006D67E /* Charizard.jpg */,
 				1C0E55D419C00FCC0006D67E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0E55F619C0182E0006D67E /* Charizard.jpg in Resources */,
 				1C0E55DB19C00FCC0006D67E /* Main.storyboard in Resources */,
 				1C0E55E019C00FCC0006D67E /* LaunchScreen.xib in Resources */,
 				1C0E55DD19C00FCC0006D67E /* Images.xcassets in Resources */,
